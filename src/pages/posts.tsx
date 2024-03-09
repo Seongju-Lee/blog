@@ -13,7 +13,7 @@ interface IPostsPageProps extends IPagination {
 function PostsPage({ posts, categories, ...props }: IPostsPageProps) {
   return (
     <>
-      <Meta title="Sungkyu's posts" />
+      <Meta title="seongju's posts" />
       <Posts posts={posts} categories={categories} {...props} />
     </>
   );

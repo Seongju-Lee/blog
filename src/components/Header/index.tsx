@@ -7,7 +7,6 @@ import { useRouter } from "next/router";
 import { cn } from "@/libs/utils";
 
 const menus = [
-  { name: "Portfolio", href: "/#" },
   { name: "Posts", href: "/posts" },
 ];
 
@@ -21,7 +20,7 @@ function Header() {
         href={"/"}
         className="sm:text-2xl text-lg font-semibold tracking-tight"
       >
-        Sungkyu
+        Seongju
       </Link>
       {searchMode && <Search />}
       <div className="flex items-center gap-2">
@@ -32,8 +31,7 @@ function Header() {
                 variant="p"
                 className={cn(
                   "text-gray-500 font-normal",
-                  asPath === menu.href && "text-black",
-                  menu.name === "Portfolio" && "line-through"
+                  asPath === menu.href && "text-black"
                 )}
               >
                 {menu.name}
@@ -41,10 +39,6 @@ function Header() {
             </Button>
           </Link>
         ))}
-        {/* 추후 게시글이 많아지면 검색 기능 주석 제거
-        <Button size="icon" variant="ghost" onClick={() => setSearchMode(true)}>
-          <SearchIcon />
-        </Button> */}
       </div>
     </div>
   );

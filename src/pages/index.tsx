@@ -15,7 +15,7 @@ function HomePage({ posts, ...props }: IHomeProps) {
 
   return (
     <>
-      <Meta title="Sungkyu's blog" />
+      <Meta title="seongju's blog" />
       <Hero2 />
       <div className="px-6 mt-12">
         <PostLists posts={posts} {...props} />
