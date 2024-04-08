@@ -1,7 +1,6 @@
 export const SNS = {
-  github: "https://github.com/JhsK",
-  linedIn: "https://www.linkedin.com/in/sungkyu-lim-5b2b8b23a/",
-  email: "mailto:qwe6293@nate.com",
+  github: "https://github.com/Seongju-Lee",
+  linedIn: "https://www.linkedin.com/in/seongju-lee-385412231/"
 };
 
 export const BREAK_POINT = {
