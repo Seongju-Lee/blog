@@ -13,7 +13,7 @@ function Meta({ title, ogTitle }: IMetaProps) {
         name="description"
         content="백엔드 엔지니어 이성주의 기술 블로그"
       />
-      <meta name="author" content="Sungkyu(Jhsk)" />
+      <meta name="author" content="SeongjuLee" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={ogTitle || "Seongju's blog"} />
       <meta
