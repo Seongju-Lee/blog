@@ -5,9 +5,9 @@ function Info() {
   return (
     <Image
       src={InfoImage}
-      width={450}
-      height={200}
-      alt="sungkyu's blog info text"
+      width={350}
+      height={100}
+      alt="seongju's blog info text"
     />
   );
 }
